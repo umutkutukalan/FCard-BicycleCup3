@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(90deg, #e0dedf, #1d2829);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+}
+/* section::before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 440px;
+  transform: translate(0px, -150px);
+  background: linear-gradient(90deg, #e0dedf, #1d2829);
+}
+section::after {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 440px;
+  transform: translate(0px, 150px);
+  background: linear-gradient(90deg, #1d2829, #e0dedf);
+}
+*/
+.container {
+  position: absolute;
+  height: 400px;
+  width: 250px;
+  transition: 0.6s;
+  z-index: 100;
+  transform-style:preserve-3d;
+}
+.container:hover {
+  transform: rotateY(-155deg) rotateX(25deg);
+}
+.container .card {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 10px 15px #313839;
+  background: linear-gradient(90deg, #bbbbbb, rgb(255, 255, 255));
+  backface-visibility: hidden;
+}
+.card.front-face .numara-kalp {
+  display: flex;
+  align-items: flex-start;
+}
+.card.front-face .numara-kalp .kose {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.card.front-face .numara-kalp .kose .number img {
+  width: 30px;
+}
+.card.front-face .numara-kalp .kose .kalp img {
+  width: 30px;
+}
+.card.front-face .numara-kalp .main-heart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 50px;
+}
+.card.front-face .numara-kalp .main-heart .heart img {
+  width: 65px;
+  margin-bottom: 50px;
+}
+.card.front-face .numara-kalp .main-heart .heart:nth-child(1) {
+  margin-top: 30px;
+}
+.card.front-face .numara-kalp .main-heart .heart:last-child img {
+  transform: rotateX(180deg);
+  margin-bottom: 0px;
+}
+.card.front-face .son-kose .kose {
+  display: flex;
+  flex-direction:column;
+  align-items: flex-end;
+  padding: 5px;
+  transform: rotateX(180deg);
+}
+.card.front-face .son-kose .kose .number img {
+  width: 30px;
+}
+.card.front-face .son-kose .kose .kalp img {
+  width: 30px;
+}
+.card.back-face {
+  transform: rotateY(180deg);
+}
+.card.back-face .magnetic-strip {
+  position: absolute;
+  top: 0px;
+  height: 400px;
+  border-radius: 10px;
+  width: 100%;
+  background: linear-gradient(90deg, #1d2829, #e0dedf);
+}
+.card.back-face .magnetic-strip .kapak {
+  display: flex;
+  justify-content: center;
+}
+.card.back-face .magnetic-strip .kapak img {
+  margin-top: 50px;
+  width: 450px;
+}
