@@ -3,7 +3,7 @@
 * Bu proje, HTML ve CSS kullanarak oyun destesi kartı oluşturma amacını taşımaktadır. Bu çalışmanın amacı, önceden var olan bir tasarımı taklit etmek değil, HTML ve CSS yetkinliklerimi göstermek ve kullanıcı arayüzü tasarımı konusundaki becerilerimi sergilemektir. Projenin genel yapısında bir aitlik söz konusu olmasa da kartın arka yüzünde kullanılan logo Bicycle’ye aittir.
 
 ### **Önemli Not**:
-* Bu proje ticari amaçlar için kullanılmamaktadır ve Bicycle ile hiçbir resmi bağlantısı yoktur. Kartın arka yüzünde kullanılan logonun tüm hakları Biycle'ye aittir. Bu çalışmanın amacı, tasarım yetkinliğimi ve front-end geliştirme becerilerimi göstermek için bir örnek sunmaktır.
+* Bu proje ticari amaçlar için kullanılmamaktadır ve Bicycle ile hiçbir resmi bağlantısı yoktur. Kartın arka yüzünde kullanılan logonun tüm hakları Bicycle'ye aittir. Bu çalışmanın amacı, tasarım yetkinliğimi ve front-end geliştirme becerilerimi göstermek için bir örnek sunmaktır.
 
 ###  **Kullanılan Teknolojiler**:
 * HTML5
